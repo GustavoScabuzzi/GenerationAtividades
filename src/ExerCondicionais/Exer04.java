@@ -24,6 +24,8 @@ public class Exer04 {
 			System.out.println("Esse numero é impar!");
 			System.out.println("O seu quadrado é: " + Math.pow(num, 2.0));
 		}
+		
+		ler.close();
 
 	}
 

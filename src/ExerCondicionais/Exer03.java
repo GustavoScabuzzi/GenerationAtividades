@@ -32,6 +32,8 @@ public class Exer03 {
 		}else {
 			System.out.println("Sua idade é muito avançada!");
 		}
+		
+		ler.close();
 
 	}
 
