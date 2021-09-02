@@ -5,6 +5,9 @@ import java.util.Scanner;
 public class Exer02 {
 
 	public static void main(String[] args) {
+		
+//2- Faça um programa que entre com três números e coloque em ordem crescente.
+		
 		Scanner ler = new Scanner(System.in);
 
 		int num1, num2, num3;

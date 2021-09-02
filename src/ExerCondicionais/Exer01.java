@@ -6,6 +6,8 @@ public class Exer01 {
 
 	public static void main(String[] args) {
 		
+//1- Faça um programa que receba três inteiros e diga qual deles é o maior.
+		
 		Scanner ler = new Scanner(System.in);
 		
 		int num1, num2, num3, maior;
