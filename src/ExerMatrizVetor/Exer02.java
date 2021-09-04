@@ -13,7 +13,6 @@ public class Exer02 {
 		// quantas foram as ocorrências da maior pontuação.
 
 		Scanner ler = new Scanner(System.in);
-		//Random sorteio = new Random();
 
 		int vetor[] = new int[5];
 		int x, soma = 0, ocorrencias = 0, maior = 0;
