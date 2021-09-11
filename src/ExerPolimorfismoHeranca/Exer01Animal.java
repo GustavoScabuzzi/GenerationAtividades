@@ -1,11 +1,9 @@
 package ExerPolimorfismoHeranca;
 
-public class Exer01Animal {
+public abstract class Exer01Animal implements Exer01InterfaceAnimal{
 
-	private String nome;
+	private String nome = "";
 	private int idade = 0;
-
-	public void emitirSom() {}
 	
 	public String getNome() {
 		return nome;

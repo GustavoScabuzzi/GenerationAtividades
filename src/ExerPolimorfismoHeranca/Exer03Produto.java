@@ -1,9 +1,9 @@
 package ExerPolimorfismoHeranca;
 
 public class Exer03Produto {
-	private String nomeProduto;
+	private String nomeProduto = "";
 	private double preco = 0.0;
-
+	
 	public Exer03Produto(String nomeProduto, double preco) {
 		this.nomeProduto = nomeProduto;
 		this.preco = preco;
