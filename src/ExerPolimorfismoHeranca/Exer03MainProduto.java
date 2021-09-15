@@ -51,7 +51,7 @@ public class Exer03MainProduto {
 				System.out.println("\nDigite o nome do produto a ser alterado:");
 				nome = scan.nextLine();
 				for (int i = 0; i < produto.size(); i++) {
-					if (produto.get(i).getNomeProduto().equals(nome)) {
+					if (produto.get(i).getNomeProduto().equalsIgnoreCase(nome)) {
 						System.out.println("O produto " + nome + " foi encontrado!, digite o novo nome:");
 						String novoNome = scan.nextLine();
 						System.out.println("Digite o novo preço:");

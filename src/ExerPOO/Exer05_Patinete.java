@@ -2,11 +2,11 @@ package ExerPOO;
 
 public class Exer05_Patinete {
 
-	String marca;
-	String material;
-	int tempoDeUso;
-	String tipoDeRoda;
-	Double PesoLimite;
+	private String marca;
+	private String material;
+	private int tempoDeUso;
+	private String tipoDeRoda;
+	private Double PesoLimite;
 	
 	public String getMarca() {
 		return marca;
